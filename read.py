@@ -1,12 +1,12 @@
 import cv2 as cv;
 
 #? Reading Images
-# img = cv.imread('Dogs/dog-puppy-on-garden-royalty-free-image-1586966191.jpg')
-# cv.imshow("Dogs", img)
-# cv.waitKey(0) 
+img = cv.imread('Dogs/dog-puppy-on-garden-royalty-free-image-1586966191.jpg')
+cv.imshow("Dogs", img)
+cv.waitKey(0) 
 
 #? Reading Videos
-capture  = cv.VideoCapture("Dogs/DogVideo.mp4")
+capture  = cv.VideoCapture(0)
 
 while True: 
     isTrue, frame = capture.read()
