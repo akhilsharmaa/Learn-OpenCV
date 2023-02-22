@@ -1,4 +1,4 @@
-## Learn Computer-Vision OPENCV
+# Learn Computer-Vision OPENCV
 
 - **Read** [image](https://github.com/akhilsharmaa/Learn-OpenCV/blob/main/read.py#L3)
 - **Read Live Camera** [Webcam](https://github.com/akhilsharmaa/Learn-OpenCV/blob/main/read.py#L3)
@@ -21,3 +21,9 @@
   - Draw a [Line](https://github.com/akhilsharmaa/Learn-OpenCV/blob/main/shapes%26text.py#L27)    
   - Draw a [Text](https://github.com/akhilsharmaa/Learn-OpenCV/blob/main/shapes%26text.py#L32)
   
+## Face Recognition LIVE 
+<img width="699" alt="Screenshot 2023-02-22 at 12 26 40 PM" src="https://user-images.githubusercontent.com/74103314/220586493-bb065da6-e860-47fc-a1e7-942ff418b0b4.png">
+
+[Face Recognition LIVE](https://github.com/akhilsharmaa/Learn-OpenCV/blob/main/faceDetectionLive.py) using **openCV.** 
+The model used for **detecting the Face** is [haarcascade_frontalface_default.xml](https://github.com/akhilsharmaa/Learn-OpenCV/blob/main/resources/haarcascade_frontalface_default.xml). This model is quiet old but its lightweight & fast.
+
